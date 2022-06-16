@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function App() {
+function ResetPassword() {
   return (
-    <div className='App'>
-      <h1>This is the home page</h1>
+    <div>
+      <small>This is the ResetPassword</small>
       <Link to='/login'>Login</Link>
     </div>
   );
 }
 
-export default App;
+export default ResetPassword;
