@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from '../pages/Login';
-import ForgotPassword from '../pages/ForgotPassword';
+import Login from '../pages/LoginPage';
+import ForgotPassword from '../pages/ForgotPasswordPage';
 import ResetPassword from '../pages/ResetPassword';
 import HomePage from '../pages/HomePage';
 
-function Routs() {
+function Routers() {
   return (
     <Router>
       <Routes>
@@ -18,4 +18,4 @@ function Routs() {
   );
 }
 
-export default Routs;
+export default Routers;

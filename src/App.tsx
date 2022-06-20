@@ -1,8 +1,8 @@
 import React from 'react';
-import Routs from './routing/Routs';
+import Routers from './routing/Routes';
 
 function App() {
-  return <Routs />;
+  return <Routers />;
 }
 
 export default App;
