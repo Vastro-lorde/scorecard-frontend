@@ -2,3 +2,89 @@
   margin: 0;
   padding: 0;
 }
+
+/* *{
+    box-sizing: border-box;
+} */
+.altH1 {
+  left: 0;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+.backToLoginStyle {
+  color: var(--primary-green);
+  font-weight: bolder;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.button {
+  background: linear-gradient(96.67deg, #34a853 0%, #b8d344 100%);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  width: 31.5rem;
+}
+.details {
+  padding: 3rem;
+}
+.forgotPasswordLink {
+  color: var(--primary-green);
+  font-weight: bolder;
+  position: relative;
+  left: 69%;
+  text-decoration: none;
+}
+form:invalid input[type='submit'] {
+  background: linear-gradient(96.67deg, #34a85356 0%, #b9d34438 100%);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin: 5rem 0;
+  padding: 1rem;
+  width: 31.5rem;
+}
+h1 {
+  color: var(--primary-black);
+  margin-bottom: 6rem;
+}
+img {
+  width: 100%;
+}
+input {
+  color: var(--primary-black);
+  border: 1px solid rgba(33, 51, 79, 0.15);
+  display: block;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  transition: all 0.3s ease-in-out;
+  width: 30rem;
+}
+input[type='email']:invalid {
+  border-color: red;
+}
+input[type='password']:invalid {
+  border-color: red;
+}
+label {
+  color: var(--primary-black);
+  display: block;
+  font-weight: bolder;
+}
+.logoContainer {
+  margin: 4rem 0 6rem 0;
+  width: 8rem;
+}
+.paswordRequirements {
+  display: none;
+}
+.sendLink {
+  margin: 0 0 3rem 0;
+}
