@@ -1,11 +1,8 @@
 import React from 'react';
+import Routers from './routing/Routes';
 
 function App() {
-  return (
-    <div className='App'>
-      <small>Hello world</small>
-    </div>
-  );
+  return <Routers />;
 }
 
 export default App;
