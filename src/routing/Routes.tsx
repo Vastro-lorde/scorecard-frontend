@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from '../pages/LoginPage';
-import ForgotPassword from '../pages/ForgotPasswordPage';
-import ResetPassword from '../pages/ResetPassword';
+import LoginPage from '../pages/LoginPage';
+import SignupPage from '../pages/SignupPage';
+import ForgotPasswordPage from '../pages/ForgotPasswordPage';
+import ResetPasswordPage from '../pages/ResetPassword';
 import HomePage from '../pages/HomePage';
 
 function Routers() {
@@ -10,9 +11,10 @@ function Routers() {
     <Router>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/ForgotPassword' element={<ForgotPassword />} />
-        <Route path='/ResetPassword' element={<ResetPassword />} />
+        <Route path='/signup' element={<SignupPage />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/ForgotPassword' element={<ForgotPasswordPage />} />
+        <Route path='/ResetPassword' element={<ResetPasswordPage />} />
       </Routes>
     </Router>
   );
