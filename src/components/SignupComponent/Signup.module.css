@@ -73,7 +73,13 @@ h1 {
 }
 
 img {
+  height: 100%;
   width: 100%;
+}
+
+.imageContainer {
+  height: 79%;
+  width: 41rem;
 }
 
 input {
@@ -86,19 +92,11 @@ input {
   width: 30rem;
 }
 
-/* input[type='email']:invalid {
-  border-color: red;
-} */
-
 input[type='password'],
 .passwordInput {
   border: none;
   margin: 0;
 }
-
-/* input[type='password']:invalid {
-  border-color: red;
-} */
 
 label {
   color: var(--primary-black);
@@ -137,21 +135,8 @@ label {
     justify-content: space-between;
     width: 100%;
   }
-
-  form:invalid input[type='submit'] {
-    width: 20.5rem;
-  }
-
-  input {
-    width: 19rem;
-  }
-
   .logoContainer {
     width: 5rem;
-  }
-
-  .passwordInputContainer {
-    width: 20.5rem;
   }
 }
 
@@ -164,8 +149,8 @@ label {
     width: 100%;
   }
 
-  input {
-    width: 19rem;
+  .details {
+    margin: auto;
   }
 
   .logoContainer {
@@ -173,19 +158,15 @@ label {
     width: 8rem;
   }
 
-  form:invalid input[type='submit'] {
-    width: 20.5rem;
-  }
-  .passwordInputContainer {
-    width: 20.5rem;
+  .imageContainer,
+  .imageContainer > img {
+    display: none;
   }
 }
 
-/* Large devices (laptops/desktops, 1080px and up) */
+/* Medium devices (landscape tablets, 1080px and up) */
 @media only screen and (max-width: 1080px) {
-  .imageContainer {
-    width: 100%;
-  }
+  .imageContainer,
   .imageContainer > img {
     width: 41rem;
   }
