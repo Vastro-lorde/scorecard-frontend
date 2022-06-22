@@ -163,9 +163,6 @@ label {
     justify-content: space-between;
     width: 100%;
   }
-  .details {
-    width: 50%;
-  }
 
   input {
     width: 19rem;
@@ -181,5 +178,15 @@ label {
   }
   .passwordInputContainer {
     width: 20.5rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 1080px and up) */
+@media only screen and (max-width: 1080px) {
+  .imageContainer {
+    width: 100%;
+  }
+  .imageContainer > img {
+    width: 41rem;
   }
 }
