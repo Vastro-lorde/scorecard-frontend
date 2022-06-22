@@ -5,7 +5,7 @@
 
 /* *{
     box-sizing: border-box;
-} */
+}  */
 .altH1 {
   left: 0;
   margin-bottom: 1rem;
@@ -32,7 +32,8 @@
   width: 31.5rem;
 }
 .details {
-  padding: 3rem;
+  padding: 2rem;
+  justify-content: center;
 }
 
 .eyeshowContainer {
@@ -58,13 +59,22 @@ form:invalid input[type='submit'] {
   font-weight: bold;
   margin: 5rem 0;
   padding: 1rem;
-  width: 31.5rem;
+  width: 20.5rem;
 }
 h1 {
   color: var(--primary-black);
   margin-bottom: 6rem;
 }
+
+.imageContainer {
+  height: 60%;
+}
+.imageContainer > img {
+  height: 100%;
+}
+
 img {
+  height: 100%;
   width: 100%;
 }
 input {
@@ -108,6 +118,21 @@ label {
 .paswordRequirements {
   display: none;
 }
+
 .sendLink {
   margin: 0 0 3rem 0;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .imageContainer > img {
+    display: none;
+  }
+  .details {
+    margin: auto;
+  }
+  input,
+  form:invalid input[type='submit'] {
+    width: 19rem;
+  }
 }
