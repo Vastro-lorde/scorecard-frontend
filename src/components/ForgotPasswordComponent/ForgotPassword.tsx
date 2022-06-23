@@ -22,7 +22,6 @@ function ForgotPassword() {
           <input type='email' name='email' id='email' placeholder='Enter email address' required />
           <input type='submit' className={ForgotpasswordCss.button} value='Send reset link' />
         </form>
-        <Link to='/ResetPassword'>Reset Password</Link>
       </div>
       <div className={ForgotpasswordCss.imageContainer}>
         <img src={bgImage} alt='A young man typing on a computer' />
