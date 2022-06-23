@@ -2,3 +2,163 @@
   margin: 0;
   padding: 0;
 }
+
+/* *{
+    box-sizing: border-box;
+}  */
+.altH1 {
+  left: 0;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.backToLoginStyle {
+  color: var(--primary-green);
+  font-weight: bolder;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+}
+
+.button {
+  background: linear-gradient(96.67deg, #34a853 0%, #b8d344 100%);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  width: 31.5rem;
+}
+
+.details {
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+
+.eyeshowContainer {
+  padding: 0.625rem;
+}
+
+.eyeshowContainer:hover {
+  background-color: #34a85325;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.forgotPasswordLink {
+  color: var(--primary-green);
+  font-weight: bolder;
+  position: relative;
+  left: 65%;
+  text-decoration: none;
+}
+
+form:invalid input[type='submit'] {
+  background: linear-gradient(96.67deg, #34a85356 0%, #b9d34438 100%);
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  padding: 1rem;
+  width: 20.5rem;
+}
+
+h1 {
+  color: var(--primary-black);
+  margin-bottom: 6rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.imageContainer {
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  color: var(--primary-black);
+  border: 1px solid rgba(33, 51, 79, 0.15);
+  display: block;
+  margin: 1rem 0;
+  padding: 0.8rem;
+  transition: all 0.3s ease-in-out;
+  width: 30rem;
+}
+
+label {
+  color: var(--primary-black);
+  display: block;
+  font-weight: bolder;
+}
+
+.logoContainer {
+  margin: 4rem 0 6rem 0;
+  width: 8rem;
+}
+
+.passwordError {
+  color: indianred;
+  display: none;
+}
+
+.passwordInput {
+  border: none;
+  margin: 0%;
+}
+
+.passwordInputContainer {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  width: 31.5rem;
+}
+
+.paswordRequirements {
+  display: none;
+}
+
+.sendLink {
+  margin: 0 0 3rem 0;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .imageContainer > img {
+    display: none;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .details {
+    margin: auto;
+  }
+
+  input,
+  form:invalid input[type='submit'] {
+    width: 19rem;
+    justify-content: center;
+  }
+
+  .forgotPasswordLink {
+    left: 60%;
+  }
+
+  .passwordInputContainer {
+    width: 20.5rem;
+  }
+}
