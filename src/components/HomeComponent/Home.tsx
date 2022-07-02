@@ -1,7 +1,13 @@
 import React from 'react';
-// import HomeCss from 'Home.module.css';
+import Navbar from '../Navbar/Navbar';
+import styles from './Home.module.css';
+
 function Home() {
-  return <div>Home Page</div>;
+  return (
+    <div className={styles.home}>
+      <Navbar />
+    </div>
+  );
 }
 
 export default Home;
