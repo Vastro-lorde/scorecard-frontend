@@ -3,6 +3,7 @@
   --secondary-green: #14a8000d;
   --primary-black: #21334f;
   --green-text: #34a853;
+  --background-color: #e5e5e5;
 }
 
 * {
@@ -16,6 +17,7 @@ body {
     'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
 }
 
 code {

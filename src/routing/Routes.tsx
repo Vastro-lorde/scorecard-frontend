@@ -5,6 +5,7 @@ import SignupPage from '../pages/SignupPage';
 import ForgotPasswordPage from '../pages/ForgotPasswordPage';
 import ResetPasswordPage from '../pages/ResetPassword';
 import HomePage from '../pages/HomePage';
+import PerformanceReport from '../components/PerformanceComponent/PerformanceReport';
 
 function Routers() {
   return (
@@ -15,6 +16,7 @@ function Routers() {
         <Route path='/login' element={<LoginPage />} />
         <Route path='/ForgotPassword' element={<ForgotPasswordPage />} />
         <Route path='/ResetPassword' element={<ResetPasswordPage />} />
+        <Route path='/PerformanceReport' element={<PerformanceReport />} />
       </Routes>
     </Router>
   );
