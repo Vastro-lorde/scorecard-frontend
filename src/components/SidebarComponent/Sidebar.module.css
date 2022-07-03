@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  box-shadow: 0.2rem 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.icons {
+  font-size: 1rem;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  width: 15rem;
+}
+
+.icons:hover {
+  background-color: var(--secondary-green);
+  color: #fff !important;
+}
+
+.icons:focus {
+  background-color: var(--primary-green);
+}
+
+.logoContainer {
+  width: 8rem;
+}
+
+.logOut {
+  background-color: var(--secondary-green);
+  font-size: 1rem;
+  justify-content: flex-start;
+  padding: 0.5rem 1rem;
+  width: 15rem;
+}
+
+.profileMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
