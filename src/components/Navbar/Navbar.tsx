@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Navbar.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
       <div className={styles.navbar__container}>
         <div className={styles.navbar_logo}>
-          {/* <img src={img1} alt='logo' /> */}
+          <img src={logo} alt='logo' />
           <h6>Scorecard</h6>
         </div>
 
