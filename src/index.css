@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+li .active {
+  color: var(--primary-green) !important;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
