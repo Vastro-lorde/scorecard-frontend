@@ -3,11 +3,18 @@
   --secondary-green: #14a8000d;
   --primary-black: #21334f;
   --green-text: #34a853;
+  --background-color: #e5e5e5;
+  --color-white: #fff;
+  --secondary-black: #03435f;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+li .active {
+  color: var(--primary-green) !important;
 }
 
 body {
