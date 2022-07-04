@@ -6,11 +6,10 @@
   overflow: hidden;
   font-family: 'Inter';
   background-color: var(--background-color);
-  
 }
 
 .container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .performanceReport h6 {
@@ -52,7 +51,7 @@
 }
 
 .performanceReport_table .tr {
-  border-bottom: 1px solid #f8f8f8;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .performanceReport_table th {
@@ -71,4 +70,11 @@
 
 .performanceReport_table:last-child {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
 }
