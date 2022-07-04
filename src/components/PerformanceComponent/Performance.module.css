@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.performanceReport {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Inter';
+  background-color: var(--background-color);
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+.performanceReport h6 {
+  margin-top: 2rem;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  color: #03435f;
+}
+
+.performanceReport_content {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-radius: 9px;
+}
+
+.performanceReport_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.performanceReport_table td,
+.performanceReport_table th {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 24px 16px;
+  cursor: pointer;
+}
+
+.performanceReport_table .tr:hover {
+  background: #f8f8f8;
+}
+
+.performanceReport_table .tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.performanceReport_table th {
+  padding: 24px 16px;
+  text-align: left;
+  background: rgba(20, 168, 0, 0.05);
+  color: #21334f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.performanceReport_table hr {
+  border: 1px solid #e5e5e5;
+}
+
+.performanceReport_table:last-child {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+}
