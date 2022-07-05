@@ -28,6 +28,7 @@
 
 .icons:focus {
   background-color: var(--primary-green);
+  color: #fff;
 }
 
 .logoContainer {
