@@ -7,6 +7,7 @@ import ResetPasswordPage from '../pages/ResetPassword';
 import HomePage from '../pages/HomePage';
 import PerformanceReport from '../components/PerformanceComponent/PerformanceReport';
 import OverviewPage from '../pages/OverviewPage';
+import DashboardPage from '../pages/DashboardPage';
 
 function Routers() {
   return (
@@ -19,6 +20,7 @@ function Routers() {
         <Route path='/ResetPassword' element={<ResetPasswordPage />} />
         <Route path='/PerformanceReport' element={<PerformanceReport />} />
         <Route path='/Dashboard/Overview' element={<OverviewPage />} />
+        <Route path='/dashboard' element={<DashboardPage />} />
       </Routes>
     </Router>
   );

@@ -1,0 +1,44 @@
+.dashboard_score {
+  background-color: var(--color-white);
+  width: 223px;
+  height: 160px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  color: var(--primary-black);
+}
+
+.dashboard_score > p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary-black);
+}
+
+.dashboard_score .dashboard_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.dashboard_bottom h5 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.dashboard_bottom .right {
+  display: flex;
+  align-items: center;
+}
+
+.right .icon {
+  color: #8ac926;
+}
+
+.right > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-black);
+}
