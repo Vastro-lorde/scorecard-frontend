@@ -4,7 +4,7 @@
 }
 
 .dashboard .dashboard_container {
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -23,7 +23,7 @@
 
 .chart_text {
   background-color: var(--color-white);
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 2rem;
 }
 
