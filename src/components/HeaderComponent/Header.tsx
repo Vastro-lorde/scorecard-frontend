@@ -30,7 +30,7 @@ const Header = () => {
         <div className={HeaderCss.menuContainer} onClick={showMenu}>
           <GiHamburgerMenu />
         </div>
-        <div ref={iconsContainer}>
+        <div ref={iconsContainer} className={HeaderCss.iconsContainer}>
           <DropDown />
         </div>
       </div>

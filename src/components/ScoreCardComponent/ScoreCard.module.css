@@ -1,0 +1,35 @@
+.arrowUp {
+  width: 0.7rem;
+}
+
+.assignment {
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.average {
+  font-size: 0.7rem;
+}
+
+.averageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.scoreAverage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scorecard {
+  background-color: white;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 10rem;
+}

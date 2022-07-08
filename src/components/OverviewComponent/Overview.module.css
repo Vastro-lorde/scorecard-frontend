@@ -1,14 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .body {
   background-color: #e5e5e5;
 }
 
 .Content {
+  padding: 1rem 5rem;
 }
 
 .Header {
@@ -19,4 +14,13 @@
   display: grid;
   grid: auto-flow / 1fr 5fr;
   width: 100%;
+}
+
+.scoreCards {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
 }
