@@ -19,3 +19,13 @@ a {
   margin-right: 1rem;
   width: 2rem;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .body {
+    display: block;
+  }
+  .linkName {
+    display: none;
+  }
+}

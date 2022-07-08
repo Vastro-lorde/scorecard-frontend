@@ -18,11 +18,18 @@
 
 .menuContainer {
   cursor: pointer;
+  margin-left: 2rem;
 }
 
 .profileMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .menuContainer {
+    margin-left: 1rem;
+  }
 }
