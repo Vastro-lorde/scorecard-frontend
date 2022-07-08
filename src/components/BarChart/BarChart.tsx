@@ -10,11 +10,11 @@ const BarChart = () => {
           datasets: [
             {
               label: 'Scores Graph',
-              data: [20, 60, 80, 100, 120],
+              data: [50, 80, 60, 73],
               backgroundColor: [
                 'rgba(138,201,38,1)',
                 'rgba(138,201,38,1)',
-                'rrgba(138,201,38,1)',
+                'rgba(138,201,38,1)',
                 'rgba(138,201,38,1)',
                 'rgba(138,201,38,1)',
                 'rgba(138,201,38,1)',
