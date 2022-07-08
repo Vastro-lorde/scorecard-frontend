@@ -6,8 +6,9 @@ import ForgotPasswordPage from '../pages/ForgotPasswordPage';
 import ResetPasswordPage from '../pages/ResetPassword';
 import HomePage from '../pages/HomePage';
 import SkillEvaluationPage from '../pages/SkillEvaluationPage';
-import PerformanceReport from '../components/PerformanceComponent/PerformanceReport';
 import OverviewPage from '../pages/OverviewPage';
+import DashboardPage from '../pages/DashboardPage';
+import PerformancePage from '../pages/PerformancePage';
 
 function Routers() {
   return (
@@ -19,8 +20,9 @@ function Routers() {
         <Route path='/ForgotPassword' element={<ForgotPasswordPage />} />
         <Route path='/ResetPassword' element={<ResetPasswordPage />} />
         <Route path='/skillEvaluation' element={<SkillEvaluationPage />} />
-        <Route path='/PerformanceReport' element={<PerformanceReport />} />
+        <Route path='/PerformanceReport' element={<PerformancePage />} />
         <Route path='/Dashboard/Overview' element={<OverviewPage />} />
+        <Route path='/dashboard' element={<DashboardPage />} />
       </Routes>
     </Router>
   );
