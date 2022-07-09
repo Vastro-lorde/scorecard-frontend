@@ -1,6 +1,7 @@
 .body {
   background-color: #e5e5e5;
 }
+
 .Content {
   padding: 1rem 5rem;
 }
@@ -26,7 +27,7 @@
 }
 
 .optionInput {
-  appearance: none;
+  /* appearance: none; */
   border: 1px solid var(--primary-green);
   border-radius: 50%;
   cursor: pointer;
@@ -56,6 +57,7 @@
   background-color: var(--primary-green);
   border: none;
   color: white;
+  cursor: pointer;
   padding: 0.5rem 1rem;
 }
 

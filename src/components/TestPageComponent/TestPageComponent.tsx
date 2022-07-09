@@ -67,25 +67,37 @@ const TestPageComponent = () => {
                 }}
               >
                 <div className={TestPageComponentCss.option}>
-                  <input type='radio' name='answer' id='optionA' className={TestPageComponentCss.optionInput} />
+                  <div>
+                    <input type='radio' name='answer' id='optionA' className={TestPageComponentCss.optionInput} />
+                    <div className={TestPageComponentCss.circle}></div>
+                  </div>
                   <label htmlFor='optionA' className={TestPageComponentCss.optionLabel}>
                     {optionA}
                   </label>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <input type='radio' name='answer' id='optionB' className={TestPageComponentCss.optionInput} />
+                  <div>
+                    <input type='radio' name='answer' id='optionB' className={TestPageComponentCss.optionInput} />
+                    <div className={TestPageComponentCss.circle}></div>
+                  </div>
                   <label htmlFor='optionB' className={TestPageComponentCss.optionLabel}>
                     {optionB}
                   </label>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <input type='radio' name='answer' id='optionC' className={TestPageComponentCss.optionInput} />
+                  <div>
+                    <input type='radio' name='answer' id='optionC' className={TestPageComponentCss.optionInput} />
+                    <div className={TestPageComponentCss.circle}></div>
+                  </div>
                   <label htmlFor='optionC' className={TestPageComponentCss.optionLabel}>
                     {optionC}
                   </label>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <input type='radio' name='answer' id='optionD' className={TestPageComponentCss.optionInput} />
+                  <div>
+                    <input type='radio' name='answer' id='optionD' className={TestPageComponentCss.optionInput} />
+                    <div className={TestPageComponentCss.circle}></div>
+                  </div>
                   <label htmlFor='optionD' className={TestPageComponentCss.optionLabel}>
                     {optionD}
                   </label>

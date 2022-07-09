@@ -6,9 +6,10 @@ interface Props {
 }
 const ProgressBar = ({ bgcolor, completed }: Props) => {
   const containerStyles = {
-    height: 20,
-    width: '100%',
     backgroundColor: '#e0e0de',
+    height: 20,
+    marginBottom: '1rem',
+    width: '100%',
   };
 
   const fillerStyles = {
