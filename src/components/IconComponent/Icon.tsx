@@ -7,6 +7,7 @@ interface Props {
   link: string;
   name: string;
   className?: any;
+  // event: React.EventHandler<HTMLDivElement>
 }
 
 const Icon: React.FC<Props> = ({ image, name, link, className }) => {
@@ -17,7 +18,9 @@ const Icon: React.FC<Props> = ({ image, name, link, className }) => {
           <img src={image} alt={name} />
         </Link>
       </div>
-      <Link to={link}>{name}</Link>
+      <Link to={link} className={IconCss.linkName}>
+        {name}
+      </Link>
     </Link>
   );
 };

@@ -1,11 +1,9 @@
 .dashboard {
   background-color: var(--background-color);
-  /* height: auto; */
 }
 
 .dashboard .dashboard_container {
-  width: 70%;
-  margin: auto;
+  width: 43rem;
 }
 
 .dashboard_container h6 {
@@ -23,7 +21,7 @@
 
 .chart_text {
   background-color: var(--color-white);
-  margin-top: 4rem;
+  margin-top: 1rem;
   padding: 2rem;
 }
 

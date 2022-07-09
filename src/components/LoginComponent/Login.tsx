@@ -25,7 +25,7 @@ function Login() {
             <img src={scoreLogo} alt='Score logo' />
           </Link>
         </div>
-        <h1>Login to your account</h1>
+        <h1 className={LoginCss.h1}>Login to your account</h1>
         <form action=''>
           <label htmlFor='email'>Email address</label>
           <input type='email' name='email' id='email' placeholder='Enter email address' required />

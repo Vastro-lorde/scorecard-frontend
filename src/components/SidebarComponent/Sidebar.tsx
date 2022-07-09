@@ -5,6 +5,7 @@ import dashBoardIcon from '../../assets/dashBoardIcon.svg';
 import performIcon from '../../assets/chartIcon.svg';
 import skillsIcon from '../../assets/skillsIcon.svg';
 import logOutSquareIcon from '../../assets/logOutSquareIcon.svg';
+// import { useState } from 'react';
 
 const Sidebar = () => {
   return (

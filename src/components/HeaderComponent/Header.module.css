@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
   box-shadow: 0.2rem 0.1rem 0.3rem rgba(0, 0, 0, 0.2);
   display: flex;
@@ -12,17 +6,33 @@
   padding: 1rem 1.5rem;
 }
 
+.iconsContainer {
+  display: none;
+}
+
 .logoContainer {
   width: 8rem;
 }
 
 .menuContainer {
   cursor: pointer;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
+.menuContainer:hover {
+  background-color: var(--secondary-green);
 }
 
 .profileMenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .menuContainer {
+    margin-left: 1rem;
+  }
 }
