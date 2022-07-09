@@ -1,0 +1,111 @@
+.profileSettings {
+  background-color: var(--background-color);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.profileSettings .profileSettings_container {
+  width: 80%;
+  margin: auto;
+}
+
+.profileSettings_container > h6 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: var(--secondary-black);
+  padding-top: 3rem;
+}
+
+.profileSettings_content {
+  background-color: var(--color-white);
+  height: 625px;
+  width: 826px;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.profileSettings_content > h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--primary-black);
+}
+
+.profileSettings_content > p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bdbdbd;
+  margin-top: 0.5rem;
+}
+
+.profileSettings_content > form {
+  margin-top: 2rem;
+}
+
+.profileSettings_content label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.profileSettings_content input {
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.profileSettings_content button {
+  width: 500px;
+  height: 40px;
+  outline: none !important;
+  border: none !important;
+  background: var(--primary-green);
+  color: var(--color-white);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileSettings_content {
+    background-color: var(--color-white);
+    height: 625px;
+    width: 100%;
+    padding: 3rem;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profileSettings .profileSettings_container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .profileSettings_content {
+    background-color: var(--color-white);
+    height: 625px;
+    width: 100%;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-top: 3rem;
+  }
+
+  .profileSettings_content input {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.03) !important;
+    outline: none !important;
+    border: none !important;
+  }
+
+  .profileSettings_content button {
+    width: 100%;
+    height: 40px;
+    outline: none !important;
+    border: none !important;
+    background: var(--primary-green);
+    color: var(--color-white);
+    margin-top: 1rem;
+  }
+}
