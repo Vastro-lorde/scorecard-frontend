@@ -1,5 +1,5 @@
 import React from 'react';
-import Dashboard from '../DashboardComponent/Dashboard';
+import ChartContainer from '../ChartContainerComponent/ChartContainer';
 import Header from '../HeaderComponent/Header';
 import ScoreCard from '../ScoreCardComponent/ScoreCard';
 import Sidebar from '../SidebarComponent/Sidebar';
@@ -20,10 +20,10 @@ function Overview() {
           <div className={OverviewCss.scoreCards}>
             <ScoreCard score={50} position={'1st'} average={0.524} />
             <ScoreCard score={80} position={'2nd'} average={-0.021} />
-            <ScoreCard score={60} position={'2nd'} average={0.322} />
-            <ScoreCard score={73} position={'2nd'} average={-0.12} />
+            <ScoreCard score={60} position={'3rd'} average={0.322} />
+            <ScoreCard score={73} position={'4th'} average={-0.12} />
           </div>
-          <Dashboard />
+          <ChartContainer />
         </div>
       </div>
     </div>

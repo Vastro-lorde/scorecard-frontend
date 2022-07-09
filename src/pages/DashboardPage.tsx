@@ -1,10 +1,10 @@
 import React from 'react';
-import Dashboard from '../components/DashboardComponent/Dashboard';
+import ChartContainer from '../components/ChartContainerComponent/ChartContainer';
 
 const DashboardPage = () => {
   return (
     <div>
-      <Dashboard />
+      <ChartContainer />
     </div>
   );
 };

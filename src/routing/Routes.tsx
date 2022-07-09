@@ -9,6 +9,7 @@ import SkillEvaluationPage from '../pages/SkillEvaluationPage';
 import OverviewPage from '../pages/OverviewPage';
 import DashboardPage from '../pages/DashboardPage';
 import PerformancePage from '../pages/PerformancePage';
+import TestPage from '../pages/TestPage';
 
 function Routers() {
   return (
@@ -23,6 +24,7 @@ function Routers() {
         <Route path='/PerformanceReport' element={<PerformancePage />} />
         <Route path='/Dashboard/Overview' element={<OverviewPage />} />
         <Route path='/dashboard' element={<DashboardPage />} />
+        <Route path='/dashboard/TestPage' element={<TestPage />} />
       </Routes>
     </Router>
   );
