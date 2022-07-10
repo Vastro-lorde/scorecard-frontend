@@ -28,7 +28,14 @@ function Login() {
         <h1 className={LoginCss.h1}>Login to your account</h1>
         <form action=''>
           <label htmlFor='email'>Email address</label>
-          <input type='email' name='email' id='email' placeholder='Enter email address' required />
+          <input
+            type='email'
+            name='email'
+            id='email'
+            placeholder='Enter email address'
+            className={LoginCss.input}
+            required
+          />
           <label htmlFor='password'>Password</label>
           <div className={LoginCss.passwordInputContainer}>
             <input
@@ -54,6 +61,9 @@ function Login() {
           </Link>
           <input type='submit' className={LoginCss.button} value='Login' />
         </form>
+        <Link to='/signup' className={LoginCss.signUpLink}>
+          Signup new account?
+        </Link>
       </div>
       <div className={LoginCss.imageContainer}>
         <img src={bgImage} alt='A young man typing on a computer' />

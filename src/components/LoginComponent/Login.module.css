@@ -51,6 +51,14 @@
   text-decoration: none;
 }
 
+.signUpLink {
+  color: var(--primary-green);
+  font-weight: bolder;
+  position: relative;
+  left: 60%;
+  text-decoration: none;
+}
+
 form:invalid input[type='submit'] {
   background: linear-gradient(96.67deg, #34a85356 0%, #b9d34438 100%);
   border: none;
@@ -76,14 +84,14 @@ img {
   width: 100%;
 }
 
-input {
+.input {
   color: var(--primary-black);
   border: 1px solid rgba(33, 51, 79, 0.15);
   display: block;
   margin: 1rem 0;
   padding: 0.8rem;
   transition: all 0.3s ease-in-out;
-  width: 30rem;
+  width: 31.5rem;
 }
 
 label {

@@ -26,7 +26,7 @@ const Header = () => {
         </Link>
       </div>
       <div className={HeaderCss.profileMenu}>
-        <Icon image={profilePlaceholder} name='Profile Name' link='' />
+        <Icon image={profilePlaceholder} name='Profile Name' link='/Dashboard/profileSettings' />
         <div className={HeaderCss.menuContainer} onClick={showMenu}>
           <GiHamburgerMenu />
         </div>

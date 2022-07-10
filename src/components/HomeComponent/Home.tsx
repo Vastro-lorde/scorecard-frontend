@@ -11,7 +11,7 @@ import access from '../../assets/access_bank.png';
 import bolt from '../../assets/bolt.png';
 import first from '../../assets/first_bank.png';
 import airtel from '../../assets/airtel.png';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { BsInstagram } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { BsYoutube } from 'react-icons/bs';
@@ -43,7 +43,9 @@ function Home() {
           <div className={styles.banner_content}>
             <h6>Keep track of your progress level as you learn </h6>
             <p>Tracking your growth is a very important part of the learning process</p>
-            <button className={styles.btn}>Get Started</button>
+            <Link to='/signup'>
+              <button className={styles.btn}>Get Started</button>
+            </Link>
           </div>
         </div>
       </section>

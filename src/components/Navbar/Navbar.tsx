@@ -50,8 +50,8 @@ const Navbar = () => {
                 </NavLink>
               </li>
             ))}
-            <NavLink to='/'>
-              <button className={styles.btn}>LogIn</button>
+            <NavLink to='/login'>
+              <button className={styles.btn}>Login</button>
             </NavLink>
           </ul>
         </div>

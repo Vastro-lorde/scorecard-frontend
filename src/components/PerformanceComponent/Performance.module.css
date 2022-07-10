@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+.body {
+  background-color: #e5e5e5;
+}
+
+.Content {
+  padding: 1rem 5rem;
+}
+
+.Header {
+  background-color: white;
+}
+
+.Main {
+  display: grid;
+  grid: auto-flow / 1fr 5fr;
+  width: 100%;
+}
+
 .performanceReport {
   height: 100vh;
   width: 100%;

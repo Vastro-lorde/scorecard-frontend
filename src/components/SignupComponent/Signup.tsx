@@ -31,11 +31,32 @@ function Signup() {
         <h1 className={SignupCss.altH1}>Sign-Up account</h1>
         <form action='' method=''>
           <label htmlFor='firstname'>First Name</label>
-          <input type='text' name='firstname' id='firstname' placeholder='Enter your firstname' required />
+          <input
+            type='text'
+            name='firstname'
+            id='firstname'
+            placeholder='Enter your firstname'
+            className={SignupCss.input}
+            required
+          />
           <label htmlFor='lastname'>Last Name</label>
-          <input type='text' name='lastname' id='lastname' placeholder='Enter your lastname' required />
+          <input
+            type='text'
+            name='lastname'
+            id='lastname'
+            placeholder='Enter your lastname'
+            className={SignupCss.input}
+            required
+          />
           <label htmlFor='email'>Email address</label>
-          <input type='email' name='email' id='email' placeholder='Enter email address' required />
+          <input
+            type='email'
+            name='email'
+            id='email'
+            placeholder='Enter email address'
+            className={SignupCss.input}
+            required
+          />
           <label htmlFor='password'>Password</label>
           <div className={SignupCss.passwordInputContainer}>
             <input

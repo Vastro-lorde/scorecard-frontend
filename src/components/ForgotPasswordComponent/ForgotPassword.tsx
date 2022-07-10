@@ -19,7 +19,14 @@ function ForgotPassword() {
         <p className={ForgotpasswordCss.sendLink}>Send a link to your email to reset your password.</p>
         <form action=''>
           <label htmlFor='email'>Email address</label>
-          <input type='email' name='email' id='email' placeholder='Enter email address' required />
+          <input
+            type='email'
+            name='email'
+            id='email'
+            placeholder='Enter email address'
+            className={ForgotpasswordCss.input}
+            required
+          />
           <input type='submit' className={ForgotpasswordCss.button} value='Send reset link' />
         </form>
       </div>
