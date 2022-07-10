@@ -50,7 +50,9 @@ function Home() {
       <section className={styles.banner_test_section}>
         <div className={styles.banner_test_container}>
           <h6>Take a skill proficiency test</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent.</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, <br /> sed praesent.
+          </p>
           <div className={styles.banner_test_content}>
             <Test
               img={img1}
