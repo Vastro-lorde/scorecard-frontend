@@ -13,24 +13,36 @@ const TestPageComponent = () => {
 
   const Title = 'JavaScript';
   let Question = 'Explain Scope and Scope Chain in javascript.';
-  let [optionA, optionB, optionC, optionD] = ['a', 'b', 'c', 'd'];
+  let [optionA, optionB, optionC, optionD] = ['a choice', 'better choos', 'continue trying', 'do not stop'];
 
   let submitButton;
   if (completed) {
     submitButton = (
-      <button type='submit' className={TestPageComponentCss.submit}>
+      <button
+        type='submit'
+        className={TestPageComponentCss.submit}
+        onClick={(e) => {
+          nextQuestion(e);
+        }}
+      >
         Done
       </button>
     );
   } else {
     submitButton = (
-      <button type='submit' className={TestPageComponentCss.submit}>
+      <button
+        type='submit'
+        className={TestPageComponentCss.submit}
+        onClick={(e) => {
+          nextQuestion(e);
+        }}
+      >
         Next
       </button>
     );
   }
 
-  const nextQuestion = (e: React.FormEvent<HTMLFormElement>) => {
+  const nextQuestion = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
     if (progress === 90) setCompleted(true);
     if (progress !== 100) setQuestionNumber(questionNumber + 1);
@@ -59,55 +71,33 @@ const TestPageComponent = () => {
               </div>
               <p className={TestPageComponentCss.testTitle}>{Title} Assessent</p>
               <p className={TestPageComponentCss.question}>{Question}</p>
-              <form
-                action=''
-                className={TestPageComponentCss.optionsContainer}
-                onSubmit={(e) => {
-                  nextQuestion(e);
-                }}
-              >
+              <ul className={TestPageComponentCss.optionsContainer}>
                 <div className={TestPageComponentCss.option}>
-                  <div>
-                    <input type='radio' name='answer' id='optionA' className={TestPageComponentCss.optionInput} />
-                    <div className={TestPageComponentCss.circle}></div>
-                  </div>
-                  <label htmlFor='optionA' className={TestPageComponentCss.optionLabel}>
+                  <li id='optionA' className={TestPageComponentCss.optionInput}>
                     {optionA}
-                  </label>
+                  </li>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <div>
-                    <input type='radio' name='answer' id='optionB' className={TestPageComponentCss.optionInput} />
-                    <div className={TestPageComponentCss.circle}></div>
-                  </div>
-                  <label htmlFor='optionB' className={TestPageComponentCss.optionLabel}>
+                  <li id='optionB' className={TestPageComponentCss.optionInput}>
                     {optionB}
-                  </label>
+                  </li>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <div>
-                    <input type='radio' name='answer' id='optionC' className={TestPageComponentCss.optionInput} />
-                    <div className={TestPageComponentCss.circle}></div>
-                  </div>
-                  <label htmlFor='optionC' className={TestPageComponentCss.optionLabel}>
+                  <li id='optionC' className={TestPageComponentCss.optionInput}>
                     {optionC}
-                  </label>
+                  </li>
                 </div>
                 <div className={TestPageComponentCss.option}>
-                  <div>
-                    <input type='radio' name='answer' id='optionD' className={TestPageComponentCss.optionInput} />
-                    <div className={TestPageComponentCss.circle}></div>
-                  </div>
-                  <label htmlFor='optionD' className={TestPageComponentCss.optionLabel}>
+                  <li id='optionD' className={TestPageComponentCss.optionInput}>
                     {optionD}
-                  </label>
+                  </li>
                 </div>
                 <ProgressBar bgcolor='#14a800' completed={`${progress}`} />
                 <div className={TestPageComponentCss.questionFooter}>
                   <p>Question {questionNumber}</p>
                   {submitButton}
                 </div>
-              </form>
+              </ul>
             </div>
           </div>
         </div>
